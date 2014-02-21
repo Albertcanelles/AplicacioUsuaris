@@ -1,0 +1,24 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class usuaris_taula extends CI_Controller {
+
+
+	public function crear_usuari()
+	{
+		$this->load->view('crear_usuari');
+	}
+	
+	public function modificar_usuari()
+	{
+		$this->load->view('modificar_usuari');
+	}
+
+	public function eliminar_usuari()
+	{
+		$this->load->view('elimina_usuari');
+	}
+	
+
+
+	
+}

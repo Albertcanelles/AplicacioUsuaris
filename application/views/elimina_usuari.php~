@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<?php include('includes.txt'); ?>
+</head>
+<body>
+
+	<?php include('navbar_top2.txt'); ?>
+<br><br><br><br>
+<h1>Aqu&iacute; elimines el teu usuari</h1>
+
+
+</body>
+</html>

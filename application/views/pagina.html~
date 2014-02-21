@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+	<ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+</div>
+<h1>Menu</h1>
+<ol>
+Usuaris
+<li><a href="http://localhost/codeigniterhelloworld/index.php/users/createusers"> Crea el teu usuari</a></li>
+<li><a href="http://localhost/codeigniterhelloworld/index.php/users/modifyusers"> Modifica el teu usuari </a></li>
+<li><a href="http://localhost/codeigniterhelloworld/index.php/users/deleteusers"> Elimina el teu usuari </a></li>
+<li><a href="http://localhost/codeigniterhelloworld/index.php/users/listusers">   Llista els usuaris</a></li>
+</ol>
+<ol>
+Configuracio
+<li><a href="http://localhost/codeigniterhelloworld/index.php/config/reset"> Canvia la teva paraula de pas </a></li>
+<li><a href="http://localhost/codeigniterhelloworld/index.php/config/sortir"> Sortir </a></li>
+</ol>
+</body>
+</html>

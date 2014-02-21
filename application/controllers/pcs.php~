@@ -1,0 +1,13 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class ordenador extends CI_Controller {
+
+public function pcs($id, $nom)
+	{
+		//echo "<h1>Aqu&iacute Elimines el teu usuari</h1>";
+		echo $id;
+		echo $nom;
+	}
+	
+}
+?>

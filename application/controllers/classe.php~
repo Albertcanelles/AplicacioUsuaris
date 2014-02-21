@@ -1,0 +1,13 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class classe extends CI_Controller {
+
+public function funcio($id)
+	{
+		
+		$id='parametre'.$id;
+		$this->load->view('vista',$id);
+	}
+	
+}
+?>

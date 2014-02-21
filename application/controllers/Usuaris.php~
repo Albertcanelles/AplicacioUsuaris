@@ -1,0 +1,23 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Usuaris extends CI_Controller {
+
+
+
+	public function crear_usuari()
+	{
+		echo "<h1>Aquí crees el teu usuari</h1>";
+	}
+	
+	public function Modificar()
+	{
+		echo "<h1>Aquí Modifiques el teu usuari</h1>";
+	}
+
+	public function Eliminar()
+	{
+		echo "<h1>Aquí Elimines el teu usuari</h1>";
+	}
+	
+}
+
